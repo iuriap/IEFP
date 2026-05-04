@@ -101,17 +101,40 @@
       </header>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 relative w-full">
         <div class="hidden md:block absolute top-1/2 left-10 right-10 h-px bg-outline-variant/30 -translate-y-1/2 z-0 pointer-events-none"></div>
-        <article class="bg-surface-variant border border-outline-variant/20 rounded-card p-8 flex flex-col gap-6 shadow-[0_4px_24px_rgba(93,64,55,0.04)] relative z-10 hover:-translate-y-1 transition-transform duration-500 animate-on-scroll idle-float" style="transition-delay: 0.1s;">
-          <div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-on-surface-variant">account_balance</span></div>
-          <div><h2 class="font-headline-md text-headline-md text-on-surface mb-2">Formal</h2><p class="font-body-md text-body-md text-on-surface-variant">Estruturada, com certificação (ex: escola, universidade)</p></div>
+        <article class="flip-card relative z-10 w-full h-[280px] animate-on-scroll idle-float" style="transition-delay: 0.1s;">
+          <div class="flip-card-inner rounded-card">
+            <div class="flip-card-front bg-surface-variant border border-outline-variant/20 rounded-card p-8 flex flex-col items-center justify-center gap-6 shadow-[0_4px_24px_rgba(93,64,55,0.04)]">
+              <div class="w-16 h-16 rounded-full bg-surface-container-highest flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-3xl text-on-surface-variant">account_balance</span></div>
+              <h2 class="font-headline-md text-headline-md text-on-surface">Formal</h2>
+            </div>
+            <div class="flip-card-back bg-surface-variant border border-outline-variant/20 rounded-card p-8 flex flex-col items-center justify-center gap-6 shadow-[0_4px_24px_rgba(93,64,55,0.04)]">
+              <p class="font-body-md text-body-md text-on-surface-variant text-center">Estruturada, com certificação (ex: escola, universidade)</p>
+            </div>
+          </div>
         </article>
-        <article class="bg-surface-container border border-outline-variant/30 rounded-card p-8 flex flex-col gap-6 shadow-[0_8px_32px_rgba(93,64,55,0.06)] relative z-10 md:-translate-y-4 hover:-translate-y-5 transition-transform duration-500 animate-on-scroll idle-float-slow" style="transition-delay: 0.2s;">
-          <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-tertiary">hub</span></div>
-          <div><h2 class="font-headline-md text-headline-md text-on-surface mb-2">Não formal</h2><p class="font-body-md text-body-md text-on-surface-variant">Organizada, mas fora do sistema oficial (ex: cursos livres, workshops)</p></div>
+        
+        <article class="flip-card relative z-10 w-full h-[280px] md:-translate-y-4 animate-on-scroll idle-float-slow" style="transition-delay: 0.2s;">
+          <div class="flip-card-inner rounded-card">
+            <div class="flip-card-front bg-surface-container border border-outline-variant/30 rounded-card p-8 flex flex-col items-center justify-center gap-6 shadow-[0_8px_32px_rgba(93,64,55,0.06)]">
+              <div class="w-16 h-16 rounded-full bg-surface-container-high flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-3xl text-tertiary">hub</span></div>
+              <h2 class="font-headline-md text-headline-md text-on-surface">Não formal</h2>
+            </div>
+            <div class="flip-card-back bg-surface-container border border-outline-variant/30 rounded-card p-8 flex flex-col items-center justify-center gap-6 shadow-[0_8px_32px_rgba(93,64,55,0.06)]">
+              <p class="font-body-md text-body-md text-on-surface-variant text-center">Organizada, mas fora do sistema oficial (ex: cursos livres, workshops)</p>
+            </div>
+          </div>
         </article>
-        <article class="bg-secondary-container border border-secondary-fixed-dim/40 rounded-card p-8 flex flex-col gap-6 shadow-[0_12px_48px_rgba(93,64,55,0.08)] relative z-10 hover:-translate-y-1 transition-transform duration-500 animate-on-scroll idle-float" style="transition-delay: 0.3s;">
-          <div class="w-12 h-12 rounded-full bg-secondary-fixed-dim/30 flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-on-secondary-container">spa</span></div>
-          <div><h2 class="font-headline-md text-headline-md text-on-secondary-container mb-2">Informal</h2><p class="font-body-md text-body-md text-on-secondary-container/80">Espontânea, baseada na experiência</p></div>
+        
+        <article class="flip-card relative z-10 w-full h-[280px] animate-on-scroll idle-float" style="transition-delay: 0.3s;">
+          <div class="flip-card-inner rounded-card">
+            <div class="flip-card-front bg-secondary-container border border-secondary-fixed-dim/40 rounded-card p-8 flex flex-col items-center justify-center gap-6 shadow-[0_12px_48px_rgba(93,64,55,0.08)]">
+              <div class="w-16 h-16 rounded-full bg-secondary-fixed-dim/30 flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-3xl text-on-secondary-container">spa</span></div>
+              <h2 class="font-headline-md text-headline-md text-on-secondary-container">Informal</h2>
+            </div>
+            <div class="flip-card-back bg-secondary-container border border-secondary-fixed-dim/40 rounded-card p-8 flex flex-col items-center justify-center gap-6 shadow-[0_12px_48px_rgba(93,64,55,0.08)]">
+              <p class="font-body-md text-body-md text-on-secondary-container/80 text-center">Espontânea, baseada na experiência</p>
+            </div>
+          </div>
         </article>
       </div>
     </section>

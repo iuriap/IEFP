@@ -9,6 +9,18 @@
 }
 
 @layer utilities {
+  .animated-bg {
+    background: linear-gradient(-45deg, #FFF8F6, #FDECE8, #FFF5F0, #FDF4ED);
+    background-size: 400% 400%;
+    animation: gradient-bg 25s ease infinite;
+  }
+  
+  @keyframes gradient-bg {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
   .ambient-shadow {
     box-shadow: 0 4px 24px -4px rgba(93, 64, 55, 0.08), 0 2px 8px -2px rgba(93, 64, 55, 0.04);
   }
@@ -17,13 +29,53 @@
   }
   .organic-shape-1 {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: organic-morph-1 12s ease-in-out infinite alternate;
   }
   .organic-shape-2 {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    animation: organic-morph-2 15s ease-in-out infinite alternate;
   }
   .organic-shape-3 {
     border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%;
+    animation: organic-morph-3 10s ease-in-out infinite alternate;
   }
+}
+
+/* Idle Animations */
+@keyframes cozy-float {
+  0%, 100% { translate: 0 0px; }
+  50% { translate: 0 -8px; }
+}
+@keyframes cozy-float-slow {
+  0%, 100% { translate: 0 0px; }
+  50% { translate: 0 -12px; }
+}
+@keyframes cozy-pulse {
+  0%, 100% { scale: 1; }
+  50% { scale: 1.015; }
+}
+@keyframes organic-morph-1 {
+  0% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; translate: 0 0px; }
+  100% { border-radius: 40% 60% 70% 30% / 40% 70% 30% 60%; translate: 10px -10px; }
+}
+@keyframes organic-morph-2 {
+  0% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; translate: 0 0px; }
+  100% { border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%; translate: -15px 5px; }
+}
+@keyframes organic-morph-3 {
+  0% { border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%; translate: 0 0px; }
+  100% { border-radius: 20% 80% 50% 50% / 75% 20% 80% 25%; translate: -10px -15px; }
+}
+
+.idle-float {
+  animation: cozy-float 6s ease-in-out infinite;
+}
+.idle-float-slow {
+  animation: cozy-float-slow 8s ease-in-out infinite;
+  animation-delay: 1s;
+}
+.idle-pulse {
+  animation: cozy-pulse 7s ease-in-out infinite;
 }
 
 /* Scroll Snapping */

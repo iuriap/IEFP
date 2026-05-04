@@ -92,35 +92,6 @@ export default {
         "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
         "headline-lg": ["32px", { lineHeight: "1.2", fontWeight: "500" }],
         "body-md": ["16px", { lineHeight: "1.5", fontWeight: "400" }]
-      },
-      keyframes: {
-        'float-slow': {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-10px)' },
-        },
-        'float-slower': {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-15px)' },
-        },
-        'pulse-gentle': {
-          '0%, 100%': { opacity: '0.9', transform: 'scale(1)' },
-          '50%': { opacity: '1', transform: 'scale(1.03)' },
-        },
-        'breathe': {
-          '0%, 100%': { transform: 'scale(1)' },
-          '50%': { transform: 'scale(1.05)' },
-        },
-        'rotate-slow': {
-          '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(360deg)' },
-        }
-      },
-      animation: {
-        'float-slow': 'float-slow 6s ease-in-out infinite',
-        'float-slower': 'float-slower 8s ease-in-out infinite',
-        'pulse-gentle': 'pulse-gentle 5s ease-in-out infinite',
-        'breathe': 'breathe 8s ease-in-out infinite',
-        'rotate-slow': 'rotate-slow 30s linear infinite',
       }
     },
   },

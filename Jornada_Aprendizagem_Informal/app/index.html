@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="animated-bg">
   <!-- Side NavBar -->
   <aside class="fixed right-8 top-1/2 -translate-y-1/2 flex flex-col gap-6 z-50 hidden lg:flex">
     <a href="#intro" class="nav-dot group relative flex items-center justify-end cursor-pointer" data-target="intro">
@@ -51,15 +51,12 @@
           </p>
         </div>
         <div class="lg:col-span-7 relative order-1 lg:order-2 animate-on-scroll" style="transition-delay: 0.2s;">
-          <div class="absolute inset-0 bg-surface-container-highest rounded-[24px] ml-4 mt-6 -z-10 opacity-70 animate-breathe"></div>
-          <div class="absolute inset-0 bg-secondary-fixed-dim/20 rounded-[24px] -ml-3 -mt-3 -z-20 animate-float-slower"></div>
-          <div class="animate-float-slow">
-            <div class="rounded-[24px] overflow-hidden border border-surface-variant shadow-[0_12px_40px_rgba(93,64,55,0.06)] relative bg-white">
-              <img alt="Informal learning setting" class="w-full h-[400px] lg:h-[520px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCc2B2Q8T1fq3tNATQM64Q0optkSyuIm_zEg2vKQL2OuiVErp6Goyg_VOC4a_x2yjYErGlbk1Qi4FvBBQ3tJQWVkM9r_qLKIGAVdBejKj3MTLl8cQAV0CELSnOQImyopNm3bUcB3dlLkbUb6YlyAYMalr1UbHD5kXa3oOm2_fQJ96EPo_-eNs9Pebp8R5XslSGLW6HBklhp6lHdawkNCVkXHt-0ZCeojGjLnijNoginztjU1Crlq9wfyHqX7EuKAu_rAhPDyaXGo-0"/>
-              <div class="absolute inset-0 bg-gradient-to-tr from-tertiary-container/20 to-transparent mix-blend-overlay pointer-events-none"></div>
-            </div>
+          <div class="absolute inset-0 bg-surface-container-highest rounded-[24px] translate-x-4 translate-y-6 -z-10 opacity-70"></div>
+          <div class="absolute inset-0 bg-secondary-fixed-dim/20 rounded-[24px] -translate-x-3 -translate-y-3 -z-20"></div>
+          <div class="rounded-[24px] overflow-hidden border border-surface-variant shadow-[0_12px_40px_rgba(93,64,55,0.06)] relative bg-white idle-float">
+            <img alt="Informal learning setting" class="w-full h-[400px] lg:h-[520px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCc2B2Q8T1fq3tNATQM64Q0optkSyuIm_zEg2vKQL2OuiVErp6Goyg_VOC4a_x2yjYErGlbk1Qi4FvBBQ3tJQWVkM9r_qLKIGAVdBejKj3MTLl8cQAV0CELSnOQImyopNm3bUcB3dlLkbUb6YlyAYMalr1UbHD5kXa3oOm2_fQJ96EPo_-eNs9Pebp8R5XslSGLW6HBklhp6lHdawkNCVkXHt-0ZCeojGjLnijNoginztjU1Crlq9wfyHqX7EuKAu_rAhPDyaXGo-0"/>
+            <div class="absolute inset-0 bg-gradient-to-tr from-tertiary-container/20 to-transparent mix-blend-overlay pointer-events-none"></div>
           </div>
-        </div>
         </div>
       </div>
     </section>
@@ -72,20 +69,20 @@
         </header>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter items-stretch">
           <div class="lg:col-span-7 flex flex-col gap-6 justify-center">
-            <div class="bg-surface-container organic-radius p-stack-md ambient-shadow border border-surface-variant flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300 animate-on-scroll" style="transition-delay: 0.1s;">
-              <div class="bg-surface-bright p-3 rounded-full shrink-0 flex items-center justify-center text-primary shadow-sm animate-pulse-gentle"><span class="material-symbols-outlined">signpost</span></div>
+            <div class="bg-surface-container organic-radius p-stack-md ambient-shadow border border-surface-variant flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300 animate-on-scroll idle-float" style="transition-delay: 0.1s;">
+              <div class="bg-surface-bright p-3 rounded-full shrink-0 flex items-center justify-center text-primary shadow-sm"><span class="material-symbols-outlined">signpost</span></div>
               <div><p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">Não é planeada ou estruturada como um curso</p></div>
             </div>
-            <div class="bg-surface-container-low organic-radius p-stack-md ambient-shadow border border-surface-variant flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300 ml-0 md:ml-6 animate-on-scroll" style="transition-delay: 0.2s;">
-              <div class="bg-surface-bright p-3 rounded-full shrink-0 flex items-center justify-center text-primary shadow-sm animate-pulse-gentle" style="animation-delay: 1s;"><span class="material-symbols-outlined">wb_sunny</span></div>
+            <div class="bg-surface-container-low organic-radius p-stack-md ambient-shadow border border-surface-variant flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300 ml-0 md:ml-6 animate-on-scroll idle-float-slow" style="transition-delay: 0.2s;">
+              <div class="bg-surface-bright p-3 rounded-full shrink-0 flex items-center justify-center text-primary shadow-sm"><span class="material-symbols-outlined">wb_sunny</span></div>
               <div><p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">Surge de experiências do cotidiano</p></div>
             </div>
-            <div class="bg-surface-container organic-radius p-stack-md ambient-shadow border border-surface-variant flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300 animate-on-scroll" style="transition-delay: 0.3s;">
-              <div class="bg-surface-bright p-3 rounded-full shrink-0 flex items-center justify-center text-primary shadow-sm animate-pulse-gentle" style="animation-delay: 2s;"><span class="material-symbols-outlined">forum</span></div>
+            <div class="bg-surface-container organic-radius p-stack-md ambient-shadow border border-surface-variant flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300 animate-on-scroll idle-float" style="transition-delay: 0.3s;">
+              <div class="bg-surface-bright p-3 rounded-full shrink-0 flex items-center justify-center text-primary shadow-sm"><span class="material-symbols-outlined">forum</span></div>
               <div><p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">Não envolve necessariamente professores ou avaliações</p></div>
             </div>
-            <div class="bg-surface-container-low organic-radius p-stack-md ambient-shadow border border-surface-variant flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300 ml-0 md:ml-6 animate-on-scroll" style="transition-delay: 0.4s;">
-              <div class="bg-surface-bright p-3 rounded-full shrink-0 flex items-center justify-center text-primary shadow-sm animate-pulse-gentle" style="animation-delay: 3s;"><span class="material-symbols-outlined">all_inclusive</span></div>
+            <div class="bg-surface-container-low organic-radius p-stack-md ambient-shadow border border-surface-variant flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300 ml-0 md:ml-6 animate-on-scroll idle-float-slow" style="transition-delay: 0.4s;">
+              <div class="bg-surface-bright p-3 rounded-full shrink-0 flex items-center justify-center text-primary shadow-sm"><span class="material-symbols-outlined">all_inclusive</span></div>
               <div><p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">Pode acontecer em qualquer momento da vida</p></div>
             </div>
           </div>
@@ -104,16 +101,16 @@
       </header>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 relative w-full">
         <div class="hidden md:block absolute top-1/2 left-10 right-10 h-px bg-outline-variant/30 -translate-y-1/2 z-0 pointer-events-none"></div>
-        <article class="bg-surface-variant border border-outline-variant/20 rounded-card p-8 flex flex-col gap-6 shadow-[0_4px_24px_rgba(93,64,55,0.04)] relative z-10 hover:-translate-y-1 transition-transform duration-500 animate-on-scroll" style="transition-delay: 0.1s;">
-          <div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center shadow-inner animate-float-slow"><span class="material-symbols-outlined text-on-surface-variant">account_balance</span></div>
+        <article class="bg-surface-variant border border-outline-variant/20 rounded-card p-8 flex flex-col gap-6 shadow-[0_4px_24px_rgba(93,64,55,0.04)] relative z-10 hover:-translate-y-1 transition-transform duration-500 animate-on-scroll idle-float" style="transition-delay: 0.1s;">
+          <div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-on-surface-variant">account_balance</span></div>
           <div><h2 class="font-headline-md text-headline-md text-on-surface mb-2">Formal</h2><p class="font-body-md text-body-md text-on-surface-variant">Estruturada, com certificação (ex: escola, universidade)</p></div>
         </article>
-        <article class="bg-surface-container border border-outline-variant/30 rounded-card p-8 flex flex-col gap-6 shadow-[0_8px_32px_rgba(93,64,55,0.06)] relative z-10 md:-translate-y-4 hover:-translate-y-5 transition-transform duration-500 animate-on-scroll" style="transition-delay: 0.2s;">
-          <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center shadow-inner animate-breathe" style="animation-delay: 1.5s;"><span class="material-symbols-outlined text-tertiary">hub</span></div>
+        <article class="bg-surface-container border border-outline-variant/30 rounded-card p-8 flex flex-col gap-6 shadow-[0_8px_32px_rgba(93,64,55,0.06)] relative z-10 md:-translate-y-4 hover:-translate-y-5 transition-transform duration-500 animate-on-scroll idle-float-slow" style="transition-delay: 0.2s;">
+          <div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-tertiary">hub</span></div>
           <div><h2 class="font-headline-md text-headline-md text-on-surface mb-2">Não formal</h2><p class="font-body-md text-body-md text-on-surface-variant">Organizada, mas fora do sistema oficial (ex: cursos livres, workshops)</p></div>
         </article>
-        <article class="bg-secondary-container border border-secondary-fixed-dim/40 rounded-card p-8 flex flex-col gap-6 shadow-[0_12px_48px_rgba(93,64,55,0.08)] relative z-10 hover:-translate-y-1 transition-transform duration-500 animate-on-scroll" style="transition-delay: 0.3s;">
-          <div class="w-12 h-12 rounded-full bg-secondary-fixed-dim/30 flex items-center justify-center shadow-inner animate-float-slower"><span class="material-symbols-outlined text-on-secondary-container">spa</span></div>
+        <article class="bg-secondary-container border border-secondary-fixed-dim/40 rounded-card p-8 flex flex-col gap-6 shadow-[0_12px_48px_rgba(93,64,55,0.08)] relative z-10 hover:-translate-y-1 transition-transform duration-500 animate-on-scroll idle-float" style="transition-delay: 0.3s;">
+          <div class="w-12 h-12 rounded-full bg-secondary-fixed-dim/30 flex items-center justify-center shadow-inner"><span class="material-symbols-outlined text-on-secondary-container">spa</span></div>
           <div><h2 class="font-headline-md text-headline-md text-on-secondary-container mb-2">Informal</h2><p class="font-body-md text-body-md text-on-secondary-container/80">Espontânea, baseada na experiência</p></div>
         </article>
       </div>
@@ -126,20 +123,20 @@
         <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-4">A aprendizagem informal é essencial porque:</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md w-full">
-        <div class="bg-surface rounded-tactile p-8 shadow-[0_8px_32px_rgba(93,64,55,0.06)] border border-surface-container-highest flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-500 ease-out animate-on-scroll" style="transition-delay: 0.1s;">
-          <div class="w-12 h-12 rounded-full bg-secondary-container/50 flex items-center justify-center text-on-secondary-container mb-2 animate-float-slow"><span class="material-symbols-outlined">all_inclusive</span></div>
+        <div class="bg-surface rounded-tactile p-8 shadow-[0_8px_32px_rgba(93,64,55,0.06)] border border-surface-container-highest flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-500 ease-out animate-on-scroll idle-float" style="transition-delay: 0.1s;">
+          <div class="w-12 h-12 rounded-full bg-secondary-container/50 flex items-center justify-center text-on-secondary-container mb-2"><span class="material-symbols-outlined">all_inclusive</span></div>
           <p class="font-body-md text-body-md text-on-surface leading-relaxed">Acontece <strong class="font-semibold text-primary">continuamente</strong> ao longo da vida;</p>
         </div>
-        <div class="bg-surface rounded-tactile p-8 shadow-[0_8px_32px_rgba(93,64,55,0.06)] border border-surface-container-highest flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-500 ease-out animate-on-scroll" style="transition-delay: 0.2s;">
-          <div class="w-12 h-12 rounded-full bg-tertiary-container/20 flex items-center justify-center text-tertiary mb-2 animate-float-slow" style="animation-delay: 1s;"><span class="material-symbols-outlined">construction</span></div>
+        <div class="bg-surface rounded-tactile p-8 shadow-[0_8px_32px_rgba(93,64,55,0.06)] border border-surface-container-highest flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-500 ease-out animate-on-scroll idle-float-slow" style="transition-delay: 0.2s;">
+          <div class="w-12 h-12 rounded-full bg-tertiary-container/20 flex items-center justify-center text-tertiary mb-2"><span class="material-symbols-outlined">construction</span></div>
           <p class="font-body-md text-body-md text-on-surface leading-relaxed">Ajuda a desenvolver <strong class="font-semibold text-tertiary">habilidades práticas</strong>;</p>
         </div>
-        <div class="bg-surface rounded-tactile p-8 shadow-[0_8px_32px_rgba(93,64,55,0.06)] border border-surface-container-highest flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-500 ease-out animate-on-scroll" style="transition-delay: 0.3s;">
-          <div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center text-primary-container mb-2 animate-float-slow" style="animation-delay: 2s;"><span class="material-symbols-outlined">account_tree</span></div>
+        <div class="bg-surface rounded-tactile p-8 shadow-[0_8px_32px_rgba(93,64,55,0.06)] border border-surface-container-highest flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-500 ease-out animate-on-scroll idle-float" style="transition-delay: 0.3s;">
+          <div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center text-primary-container mb-2"><span class="material-symbols-outlined">account_tree</span></div>
           <p class="font-body-md text-body-md text-on-surface leading-relaxed"><strong class="font-semibold text-primary-container">Complementa</strong> a aprendizagem formal (escola) e não formal (cursos livres);</p>
         </div>
-        <div class="bg-surface rounded-tactile p-8 shadow-[0_8px_32px_rgba(93,64,55,0.06)] border border-surface-container-highest flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-500 ease-out animate-on-scroll" style="transition-delay: 0.4s;">
-          <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary mb-2 animate-float-slow" style="animation-delay: 3s;"><span class="material-symbols-outlined">explore</span></div>
+        <div class="bg-surface rounded-tactile p-8 shadow-[0_8px_32px_rgba(93,64,55,0.06)] border border-surface-container-highest flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-500 ease-out animate-on-scroll idle-float-slow" style="transition-delay: 0.4s;">
+          <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary mb-2"><span class="material-symbols-outlined">explore</span></div>
           <p class="font-body-md text-body-md text-on-surface leading-relaxed">Estimula <strong class="font-semibold text-secondary">autonomia</strong> e curiosidade</p>
         </div>
       </div>
@@ -147,8 +144,8 @@
 
     <!-- Section 5: Exemplos -->
     <section id="exemplos" class="snap-section flex flex-col items-center justify-center py-section-padding px-gutter relative overflow-hidden">
-      <div class="fixed top-20 -left-40 w-96 h-96 bg-secondary-fixed/20 rounded-full blur-3xl -z-10 pointer-events-none animate-breathe"></div>
-      <div class="fixed bottom-20 -right-40 w-[30rem] h-[30rem] bg-primary-fixed/20 rounded-full blur-3xl -z-10 pointer-events-none animate-float-slower"></div>
+      <div class="fixed top-20 -left-40 w-96 h-96 bg-secondary-fixed/20 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+      <div class="fixed bottom-20 -right-40 w-[30rem] h-[30rem] bg-primary-fixed/20 rounded-full blur-3xl -z-10 pointer-events-none"></div>
       
       <div class="w-full max-w-container-max mx-auto relative">
         <header class="text-center mb-stack-lg relative z-10 animate-on-scroll">
@@ -156,35 +153,35 @@
           <div class="w-16 h-1 bg-tertiary-container/30 mx-auto rounded-full mt-stack-sm"></div>
         </header>
         <div class="grid grid-cols-1 md:grid-cols-12 gap-stack-sm md:gap-stack-md relative z-10">
-          <article class="col-span-1 md:col-span-7 bg-surface-container-lowest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll" style="transition-delay: 0.1s;">
-            <div class="absolute -right-12 -top-12 w-48 h-48 opacity-50 group-hover:scale-110 transition-transform duration-500"><div class="w-full h-full bg-primary-fixed/20 organic-shape-1 animate-rotate-slow"></div></div>
+          <article class="col-span-1 md:col-span-7 bg-surface-container-lowest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll idle-float" style="transition-delay: 0.1s;">
+            <div class="absolute -right-12 -top-12 w-48 h-48 bg-primary-fixed/20 organic-shape-1 opacity-50 group-hover:scale-110 transition-transform duration-500"></div>
             <div class="relative z-10 flex items-start gap-stack-sm">
-              <div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0 animate-pulse-gentle"><span class="material-symbols-outlined text-2xl">restaurant_menu</span></div>
+              <div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-2xl">restaurant_menu</span></div>
               <div><h3 class="font-headline-md text-headline-md text-on-surface mb-unit">Aprender uma receita com um familiar</h3><p class="font-body-md text-body-md text-on-surface-variant">A transmissão de conhecimento geracional num ambiente íntimo, usando os sentidos e a "por as mãos na massa".</p></div>
             </div>
           </article>
-          <article class="col-span-1 md:col-span-5 bg-surface-container rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll" style="transition-delay: 0.2s;">
-            <div class="absolute -left-8 -bottom-8 w-32 h-32 opacity-60 group-hover:rotate-12 transition-transform duration-500"><div class="w-full h-full bg-secondary-container/40 organic-shape-2 animate-rotate-slow" style="animation-direction: reverse;"></div></div>
+          <article class="col-span-1 md:col-span-5 bg-surface-container rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll idle-float-slow" style="transition-delay: 0.2s;">
+            <div class="absolute -left-8 -bottom-8 w-32 h-32 bg-secondary-container/40 organic-shape-2 opacity-60 group-hover:rotate-12 transition-transform duration-500"></div>
             <div class="relative z-10 flex flex-col h-full justify-between">
-              <div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center mb-stack-sm animate-breathe" style="animation-delay: 1s;"><span class="material-symbols-outlined text-xl">play_circle</span></div>
+              <div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center mb-stack-sm"><span class="material-symbols-outlined text-xl">play_circle</span></div>
               <h3 class="font-headline-md text-[20px] leading-tight font-medium text-on-surface mb-unit">Desenvolver habilidades a ver um vídeo no YouTube</h3>
             </div>
           </article>
-          <article class="col-span-1 md:col-span-4 bg-tertiary-container text-on-tertiary-container rounded-2xl p-stack-md ambient-shadow relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll" style="transition-delay: 0.3s;">
-            <div class="absolute inset-0 bg-gradient-to-br from-tertiary-container to-tertiary opacity-90 animate-pulse-gentle"></div>
+          <article class="col-span-1 md:col-span-4 bg-tertiary-container text-on-tertiary-container rounded-2xl p-stack-md ambient-shadow relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll idle-pulse" style="transition-delay: 0.3s;">
+            <div class="absolute inset-0 bg-gradient-to-br from-tertiary-container to-tertiary opacity-90"></div>
             <div class="relative z-10 flex flex-col items-center text-center h-full justify-center">
-              <span class="material-symbols-outlined text-4xl mb-stack-sm opacity-80 animate-breathe">forum</span>
+              <span class="material-symbols-outlined text-4xl mb-stack-sm opacity-80">forum</span>
               <h3 class="font-headline-md text-[20px] leading-tight font-medium">Aprender um idioma conversando com pessoas</h3>
             </div>
           </article>
-          <article class="col-span-1 md:col-span-8 bg-surface-container-lowest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden flex items-center group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll" style="transition-delay: 0.4s;">
-            <div class="absolute right-0 bottom-0 w-64 h-64 translate-x-1/4 translate-y-1/4 group-hover:-translate-x-4 transition-transform duration-700"><div class="w-full h-full bg-tertiary-fixed/30 organic-shape-3 animate-rotate-slow"></div></div>
+          <article class="col-span-1 md:col-span-8 bg-surface-container-lowest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden flex items-center group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll idle-float" style="transition-delay: 0.4s;">
+            <div class="absolute right-0 bottom-0 w-64 h-64 bg-tertiary-fixed/30 organic-shape-3 translate-x-1/4 translate-y-1/4 group-hover:-translate-x-4 transition-transform duration-700"></div>
             <div class="relative z-10 flex flex-col md:flex-row items-start md:items-center gap-stack-md w-full">
               <div class="flex-grow"><h3 class="font-headline-md text-headline-md text-on-surface mb-unit">Resolver problemas no trabalho e adquirir novas competências</h3><p class="font-body-md text-body-md text-on-surface-variant max-w-xl">A aprendizagem 'on-the-job' surge da necessidade imediata de superar obstáculos reais, transformando a prática diária numa escola contínua.</p></div>
               <div class="w-14 h-14 rounded-full bg-outline-variant text-on-surface-variant flex items-center justify-center shrink-0 self-start md:self-auto"><span class="material-symbols-outlined text-2xl">build</span></div>
             </div>
           </article>
-          <article class="col-span-1 md:col-span-12 bg-surface-container-highest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/30 relative overflow-hidden flex flex-col md:flex-row items-center justify-between group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll" style="transition-delay: 0.5s;">
+          <article class="col-span-1 md:col-span-12 bg-surface-container-highest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/30 relative overflow-hidden flex flex-col md:flex-row items-center justify-between group hover:-translate-y-1 transition-transform duration-300 animate-on-scroll idle-float-slow" style="transition-delay: 0.5s;">
             <div class="relative z-10 flex items-center gap-stack-sm mb-stack-sm md:mb-0">
               <div class="w-12 h-12 rounded-full bg-surface text-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-2xl">travel_explore</span></div>
               <h3 class="font-headline-md text-headline-md text-on-surface">Explorar temas de interesse por conta própria na internet</h3>

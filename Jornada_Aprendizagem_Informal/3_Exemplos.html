@@ -1,0 +1,228 @@
+<!DOCTYPE html><html class="light" lang="pt-BR" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Exemplos comuns - Informal Learning</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:wght@400..700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-container": "#8f6d62",
+                        "surface-container": "#f1ede8",
+                        "primary": "#93452b",
+                        "on-background": "#1c1c19",
+                        "primary-fixed": "#ffdbd0",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#d7e8ca",
+                        "secondary-fixed": "#d7e8ca",
+                        "outline-variant": "#dbc1ba",
+                        "on-primary-fixed": "#3a0b00",
+                        "on-tertiary-fixed-variant": "#5d4037",
+                        "background": "#fdf9f4",
+                        "tertiary": "#74554b",
+                        "surface-container-highest": "#e6e2dd",
+                        "inverse-on-surface": "#f4f0eb",
+                        "on-primary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "surface-bright": "#fdf9f4",
+                        "primary-container": "#b25d41",
+                        "secondary": "#54634c",
+                        "on-surface-variant": "#55433d",
+                        "tertiary-fixed": "#ffdbd0",
+                        "surface-container-low": "#f7f3ee",
+                        "secondary-fixed-dim": "#bbccaf",
+                        "on-surface": "#1c1c19",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed-dim": "#e7bdb1",
+                        "surface-variant": "#e6e2dd",
+                        "on-tertiary-container": "#fffbff",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-dim": "#ddd9d5",
+                        "outline": "#88726c",
+                        "surface-tint": "#96472d",
+                        "on-tertiary-fixed": "#2c160e",
+                        "on-secondary-container": "#5a6951",
+                        "on-primary-fixed-variant": "#783118",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#31302d",
+                        "on-secondary-fixed": "#121f0d",
+                        "surface-container-high": "#ebe8e3",
+                        "surface": "#fdf9f4",
+                        "primary-fixed-dim": "#ffb59e",
+                        "inverse-primary": "#ffb59e",
+                        "on-secondary-fixed-variant": "#3c4b35",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#fffbff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px",
+                        "2xl": "1.5rem"
+                    },
+                    "spacing": {
+                        "stack-sm": "12px",
+                        "stack-lg": "48px",
+                        "gutter": "32px",
+                        "section-padding": "80px",
+                        "container-max": "960px",
+                        "unit": "8px",
+                        "stack-md": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Noto Serif"],
+                        "caption": ["Plus Jakarta Sans"],
+                        "label-md": ["Plus Jakarta Sans"],
+                        "display-lg": ["Noto Serif"],
+                        "body-lg": ["Plus Jakarta Sans"],
+                        "headline-lg": ["Noto Serif"],
+                        "body-md": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "500" }],
+                        "caption": ["12px", { "lineHeight": "1.4", "fontWeight": "500" }],
+                        "label-md": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.01em", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .ambient-shadow {
+            box-shadow: 0 4px 20px rgba(93, 64, 55, 0.08);
+        }
+        .organic-shape-1 {
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        }
+        .organic-shape-2 {
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        }
+        .organic-shape-3 {
+            border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-md overflow-x-hidden selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<!-- SideNavBar (Learning Journey Slide Progress) -->
+<aside class="fixed right-8 top-1/2 -translate-y-1/2 flex flex-col gap-6 z-40 bg-transparent">
+<div class="flex flex-col items-center gap-unit group relative cursor-pointer hover:scale-150 transition-transform duration-300" title="Introduction">
+<div class="flex items-center justify-center bg-stone-300 dark:bg-stone-700 rounded-full w-2 h-2">
+<span class="material-symbols-outlined hidden" style="font-variation-settings: &quot;FILL&quot; 1;">radio_button_checked</span>
+</div>
+<span class="absolute right-6 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap bg-surface-container px-2 py-1 rounded text-caption font-caption text-on-surface-variant">Introduction</span>
+</div>
+<div class="flex flex-col items-center gap-unit group relative cursor-pointer hover:scale-150 transition-transform duration-300" title="The Environment">
+<div class="flex items-center justify-center bg-stone-300 dark:bg-stone-700 rounded-full w-2 h-2">
+<span class="material-symbols-outlined hidden" style="font-variation-settings: &quot;FILL&quot; 1;">wb_sunny</span>
+</div>
+<span class="absolute right-6 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap bg-surface-container px-2 py-1 rounded text-caption font-caption text-on-surface-variant">The Environment</span>
+</div>
+<div class="flex flex-col items-center gap-unit group relative cursor-pointer" title="Social Context">
+<div class="flex items-center justify-center bg-[#C36A4D] text-white rounded-full w-3 h-3 scale-125 transition-transform duration-200">
+<span class="material-symbols-outlined text-[10px] hidden" style="font-variation-settings: &quot;FILL&quot; 1;">group</span>
+</div>
+</div>
+<div class="flex flex-col items-center gap-unit group relative cursor-pointer hover:scale-150 transition-transform duration-300" title="Tactile Tools">
+<div class="flex items-center justify-center bg-stone-300 dark:bg-stone-700 rounded-full w-2 h-2">
+<span class="material-symbols-outlined hidden" style="font-variation-settings: &quot;FILL&quot; 1;">brush</span>
+</div>
+<span class="absolute right-6 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap bg-surface-container px-2 py-1 rounded text-caption font-caption text-on-surface-variant">Tactile Tools</span>
+</div>
+<div class="flex flex-col items-center gap-unit group relative cursor-pointer hover:scale-150 transition-transform duration-300" title="Reflection">
+<div class="flex items-center justify-center bg-stone-300 dark:bg-stone-700 rounded-full w-2 h-2">
+<span class="material-symbols-outlined hidden" style="font-variation-settings: &quot;FILL&quot; 1;">self_care</span>
+</div>
+<span class="absolute right-6 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap bg-surface-container px-2 py-1 rounded text-caption font-caption text-on-surface-variant">Reflection</span>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-[100px] pb-[100px] px-gutter flex flex-col items-center justify-center">
+<div class="w-full max-w-container-max mx-auto relative">
+<!-- Header Section -->
+<header class="text-center mb-stack-lg relative z-10">
+<div class="inline-flex items-center justify-center bg-secondary-container/30 px-4 py-1.5 rounded-full mb-stack-sm backdrop-blur-sm border border-secondary-container/50">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider"><br></span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-background mb-stack-sm">Exemplos comuns</h1>
+<div class="w-16 h-1 bg-tertiary-container/30 mx-auto rounded-full mt-stack-sm"></div>
+</header>
+<!-- Bento Grid Content -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-stack-sm md:gap-stack-md relative z-10">
+<!-- Card 1: Receita (Span 7) -->
+<article class="col-span-1 md:col-span-7 bg-surface-container-lowest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
+<div class="absolute -right-12 -top-12 w-48 h-48 bg-primary-fixed/20 organic-shape-1 opacity-50 group-hover:scale-110 transition-transform duration-500"></div>
+<div class="relative z-10 flex items-start gap-stack-sm">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">restaurant_menu</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-unit">Aprender uma receita com um familiar</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">A transmissão de conhecimento geracional num ambiente íntimo, usando os sentidos e a "por as mãos na massa".</p>
+</div>
+</div>
+</article>
+<!-- Card 2: YouTube (Span 5) -->
+<article class="col-span-1 md:col-span-5 bg-surface-container rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
+<div class="absolute -left-8 -bottom-8 w-32 h-32 bg-secondary-container/40 organic-shape-2 opacity-60 group-hover:rotate-12 transition-transform duration-500"></div>
+<div class="relative z-10 flex flex-col h-full justify-between">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center mb-stack-sm">
+<span class="material-symbols-outlined text-xl">play_circle</span>
+</div>
+<h3 class="font-headline-md text-[20px] leading-tight font-medium text-on-surface mb-unit">Desenvolver habilidades a ver um vídeo no YouTube</h3>
+</div>
+</article>
+<!-- Card 3: Idioma (Span 4) -->
+<article class="col-span-1 md:col-span-4 bg-tertiary-container text-on-tertiary-container rounded-2xl p-stack-md ambient-shadow relative overflow-hidden group hover:-translate-y-1 transition-transform duration-300">
+<div class="absolute inset-0 bg-gradient-to-br from-tertiary-container to-tertiary opacity-90"></div>
+<div class="relative z-10 flex flex-col items-center text-center h-full justify-center">
+<span class="material-symbols-outlined text-4xl mb-stack-sm opacity-80" style="font-variation-settings: &quot;FILL&quot; 1;">forum</span>
+<h3 class="font-headline-md text-[20px] leading-tight font-medium">Aprender um idioma conversando com pessoas</h3>
+</div>
+</article>
+<!-- Card 4: Trabalho (Span 8) -->
+<article class="col-span-1 md:col-span-8 bg-surface-container-lowest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/50 relative overflow-hidden flex items-center group hover:-translate-y-1 transition-transform duration-300">
+<div class="absolute right-0 bottom-0 w-64 h-64 bg-tertiary-fixed/30 organic-shape-3 translate-x-1/4 translate-y-1/4 group-hover:-translate-x-4 transition-transform duration-700"></div>
+<div class="relative z-10 flex flex-col md:flex-row items-start md:items-center gap-stack-md w-full">
+<div class="flex-grow">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-unit">Resolver problemas no trabalho e adquirir novas competências</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">A aprendizagem 'on-the-job' surge da necessidade imediata de superar obstáculos reais, transformando a prática diária numa escola contínua.</p>
+</div>
+<div class="w-14 h-14 rounded-full bg-outline-variant text-on-surface-variant flex items-center justify-center shrink-0 self-start md:self-auto">
+<span class="material-symbols-outlined text-2xl">build</span>
+</div>
+</div>
+</article>
+<!-- Card 5: Explorar Internet (Span 12) -->
+<article class="col-span-1 md:col-span-12 bg-surface-container-highest rounded-2xl p-stack-md ambient-shadow border border-surface-variant/30 relative overflow-hidden flex flex-col md:flex-row items-center justify-between group hover:-translate-y-1 transition-transform duration-300">
+<div class="relative z-10 flex items-center gap-stack-sm mb-stack-sm md:mb-0">
+<div class="w-12 h-12 rounded-full bg-surface text-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-2xl">travel_explore</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Explorar temas de interesse por conta própria na internet</h3>
+</div>
+<div class="relative w-full md:w-1/3 h-2 bg-surface-variant rounded-full overflow-hidden">
+<div class="absolute top-0 left-0 h-full w-2/3 bg-primary rounded-full"></div>
+</div>
+</article>
+</div>
+<!-- Decorative Ambient Elements Background -->
+<div class="fixed top-20 -left-40 w-96 h-96 bg-secondary-fixed/20 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+<div class="fixed bottom-20 -right-40 w-[30rem] h-[30rem] bg-primary-fixed/20 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+</div>
+</main>
+<!-- Footer -->
+
+
+</body></html>

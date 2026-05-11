@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>A Estrutura do Método (S-T-A-R)</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#202c42",
+                        "surface-container-high": "#1a2438",
+                        "on-tertiary-fixed-variant": "#4d2a73",
+                        "background": "#0a0e1a",
+                        "primary-fixed": "#c8eaff",
+                        "on-surface": "#e0e8f0",
+                        "outline-variant": "#2a3a48",
+                        "on-primary-fixed-variant": "#004d73",
+                        "error": "#ff6b6b",
+                        "secondary-container": "#1a3a4e",
+                        "primary": "#7dd3fc",
+                        "on-tertiary-container": "#e8d0ff",
+                        "on-tertiary-fixed": "#1a002e",
+                        "inverse-surface": "#e0e8f0",
+                        "secondary": "#88b4cc",
+                        "on-background": "#e0e8f0",
+                        "error-container": "#3d1414",
+                        "tertiary": "#c8a0f0",
+                        "secondary-fixed": "#c0d8e8",
+                        "secondary-fixed-dim": "#88b4cc",
+                        "surface-tint": "#7dd3fc",
+                        "on-primary-container": "#c8eaff",
+                        "surface-container": "#141c2e",
+                        "primary-container": "#0e4d6e",
+                        "tertiary-container": "#3d2060",
+                        "on-secondary-fixed-variant": "#2a4a5e",
+                        "outline": "#4a6070",
+                        "on-primary-fixed": "#001f2e",
+                        "inverse-on-surface": "#0a0e1a",
+                        "surface": "#0f1524",
+                        "on-error-container": "#ffb3b3",
+                        "on-surface-variant": "#a0b4c4",
+                        "surface-variant": "#1a2438",
+                        "on-secondary-container": "#c0d8e8",
+                        "tertiary-fixed-dim": "#c8a0f0",
+                        "tertiary-fixed": "#e8d0ff",
+                        "surface-bright": "#1a2438",
+                        "on-primary": "#001f2e",
+                        "on-secondary": "#001f2e",
+                        "primary-fixed-dim": "#7dd3fc",
+                        "inverse-primary": "#0a4c6e",
+                        "on-secondary-fixed": "#0d1f2b",
+                        "on-tertiary": "#1a002e",
+                        "surface-dim": "#0f1524",
+                        "surface-container-low": "#111828",
+                        "on-error": "#1a0000",
+                        "surface-container-lowest": "#0a0e1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "display": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: theme('colors.background');
+            color: theme('colors.on-surface');
+            font-family: theme('fontFamily.body');
+        }
+        .glass-panel {
+            background: rgba(15, 21, 36, 0.6);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(125, 211, 252, 0.1);
+        }
+        .glass-panel-elevated {
+            background: rgba(15, 21, 36, 0.75);
+            backdrop-filter: blur(24px);
+            border: 1px solid rgba(125, 211, 252, 0.15);
+            box-shadow: 0 0 30px rgba(125, 211, 252, 0.05);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+<!-- TopNavBar -->
+<!-- SideNavBar -->
+<!-- Main Content Canvas -->
+<main class="flex-1 px-6 md:px-12 pb-24 max-w-7xl mx-auto w-full py-16">
+<header class="mb-12">
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface tracking-tight mb-4">A Estrutura do Método (S-T-A-R)</h1>
+<p class="text-lg text-on-surface-variant font-body max-w-3xl">Compreenda os quatro pilares fundamentais que compõem a resposta perfeita em entrevistas comportamentais.</p>
+</header>
+<!-- Bento Grid for STAR -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Situação (S) -->
+<div class="glass-panel-elevated rounded-xl p-8 flex flex-col relative overflow-hidden group hover:bg-primary/5 transition-all duration-300">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-3xl -mr-10 -mt-10 group-hover:bg-primary/20 transition-all"></div>
+<div class="text-6xl font-headline font-extrabold text-primary/20 absolute bottom-4 right-6 pointer-events-none">S</div>
+<div class="w-14 h-14 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center mb-6 z-10">
+<span class="material-symbols-outlined text-primary text-2xl">map</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3 z-10">Situação</h3>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed z-10">
+                    Defina o contexto. Descreva o evento específico, projeto ou desafio que você enfrentou. Forneça detalhes suficientes para que o entrevistador entenda o cenário, mas mantenha-se conciso.
+                </p>
+</div>
+<!-- Tarefa (T) -->
+<div class="glass-panel-elevated rounded-xl p-8 flex flex-col relative overflow-hidden group hover:bg-tertiary/5 transition-all duration-300">
+<div class="absolute top-0 right-0 w-32 h-32 bg-tertiary/10 rounded-full blur-3xl -mr-10 -mt-10 group-hover:bg-tertiary/20 transition-all"></div>
+<div class="text-6xl font-headline font-extrabold text-tertiary/20 absolute bottom-4 right-6 pointer-events-none">T</div>
+<div class="w-14 h-14 rounded-full bg-tertiary/10 border border-tertiary/20 flex items-center justify-center mb-6 z-10">
+<span class="material-symbols-outlined text-tertiary text-2xl">list_alt</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3 z-10">Tarefa</h3>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed z-10">
+                    Explique sua responsabilidade. Qual era o seu papel nessa situação específica? Que meta precisava ser alcançada ou qual problema precisava ser resolvido?
+                </p>
+</div>
+<!-- Ação (A) -->
+<div class="glass-panel-elevated rounded-xl p-8 flex flex-col relative overflow-hidden group hover:bg-secondary/5 transition-all duration-300">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary/10 rounded-full blur-3xl -mr-10 -mt-10 group-hover:bg-secondary/20 transition-all"></div>
+<div class="text-6xl font-headline font-extrabold text-secondary/20 absolute bottom-4 right-6 pointer-events-none">A</div>
+<div class="w-14 h-14 rounded-full bg-secondary/10 border border-secondary/20 flex items-center justify-center mb-6 z-10">
+<span class="material-symbols-outlined text-secondary text-2xl">bolt</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3 z-10">Ação</h3>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed z-10">
+                    Descreva o que você fez. Detalhe os passos específicos que você tomou para lidar com a situação. Foco no "eu", não no "nós". O que você efetivamente realizou?
+                </p>
+</div>
+<!-- Resultado (R) -->
+<div class="glass-panel-elevated rounded-xl p-8 flex flex-col relative overflow-hidden group hover:bg-primary/5 transition-all duration-300">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/20 rounded-full blur-3xl -mr-10 -mt-10 group-hover:bg-primary/30 transition-all"></div>
+<div class="text-6xl font-headline font-extrabold text-primary/30 absolute bottom-4 right-6 pointer-events-none">R</div>
+<div class="w-14 h-14 rounded-full bg-primary/20 border border-primary/30 flex items-center justify-center mb-6 z-10">
+<span class="material-symbols-outlined text-primary text-2xl">monitoring</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3 z-10">Resultado</h3>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed z-10">
+                    Compartilhe o impacto. Qual foi o desfecho de suas ações? Use dados quantificáveis e métricas sempre que possível para ilustrar seu sucesso de forma concreta.
+                </p>
+</div>
+</div>
+</main>
+<!-- Footer -->
+</body></html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Conceito e Premissa - Método STAR</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#202c42",
+                    "surface-container-high": "#1a2438",
+                    "on-tertiary-fixed-variant": "#4d2a73",
+                    "background": "#0a0e1a",
+                    "primary-fixed": "#c8eaff",
+                    "on-surface": "#e0e8f0",
+                    "outline-variant": "#2a3a48",
+                    "on-primary-fixed-variant": "#004d73",
+                    "error": "#ff6b6b",
+                    "secondary-container": "#1a3a4e",
+                    "primary": "#7dd3fc",
+                    "on-tertiary-container": "#e8d0ff",
+                    "on-tertiary-fixed": "#1a002e",
+                    "inverse-surface": "#e0e8f0",
+                    "secondary": "#88b4cc",
+                    "on-background": "#e0e8f0",
+                    "error-container": "#3d1414",
+                    "tertiary": "#c8a0f0",
+                    "secondary-fixed": "#c0d8e8",
+                    "secondary-fixed-dim": "#88b4cc",
+                    "surface-tint": "#7dd3fc",
+                    "on-primary-container": "#c8eaff",
+                    "surface-container": "#141c2e",
+                    "primary-container": "#0e4d6e",
+                    "tertiary-container": "#3d2060",
+                    "on-secondary-fixed-variant": "#2a4a5e",
+                    "outline": "#4a6070",
+                    "on-primary-fixed": "#001f2e",
+                    "inverse-on-surface": "#0a0e1a",
+                    "surface": "#0f1524",
+                    "on-error-container": "#ffb3b3",
+                    "on-surface-variant": "#a0b4c4",
+                    "surface-variant": "#1a2438",
+                    "on-secondary-container": "#c0d8e8",
+                    "tertiary-fixed-dim": "#c8a0f0",
+                    "tertiary-fixed": "#e8d0ff",
+                    "surface-bright": "#1a2438",
+                    "on-primary": "#001f2e",
+                    "on-secondary": "#001f2e",
+                    "primary-fixed-dim": "#7dd3fc",
+                    "inverse-primary": "#0a4c6e",
+                    "on-secondary-fixed": "#0d1f2b",
+                    "on-tertiary": "#1a002e",
+                    "surface-dim": "#0f1524",
+                    "surface-container-low": "#111828",
+                    "on-error": "#1a0000",
+                    "surface-container-lowest": "#0a0e1a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.5rem",
+                    "lg": "1rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "display": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(15, 21, 36, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(125, 211, 252, 0.1);
+        }
+        .glass-elevated {
+            background: rgba(15, 21, 36, 0.75);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 1px solid rgba(125, 211, 252, 0.15);
+        }
+        .glow-subtle {
+            box-shadow: 0 0 30px rgba(125, 211, 252, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body min-h-screen flex flex-col md:flex-row overflow-x-hidden selection:bg-primary/30 selection:text-primary-fixed">
+<!-- SideNavBar (Predicted Component) -->
+<!-- Main Content Area -->
+<main class="flex-1 relative min-h-screen pb-20 flex flex-col justify-center items-center p-8 lg:p-16">
+<!-- Ambient Background Glows -->
+<div class="absolute top-1/4 left-1/4 w-[40rem] h-[40rem] bg-primary/10 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
+<div class="absolute bottom-1/4 right-1/4 w-[30rem] h-[30rem] bg-tertiary/10 rounded-full blur-[100px] -z-10 pointer-events-none"></div>
+<div class="max-w-6xl w-full mx-auto space-y-12">
+<!-- Slide Header -->
+<header class="text-center space-y-4">
+<div class="inline-flex items-center justify-center p-3 rounded-full bg-surface-variant/50 border border-primary/20 mb-4 glass-panel">
+<span class="material-symbols-outlined text-primary text-3xl">psychology</span>
+</div>
+<h1 class="text-5xl md:text-6xl font-headline font-bold text-on-surface tracking-tight">Conceito e Premissa</h1>
+<p class="text-xl text-on-surface-variant font-body max-w-2xl mx-auto">Compreendendo os fundamentos lógicos que sustentam a metodologia STAR.</p>
+</header>
+<!-- Bento Grid / Glassmorphism Columns -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mt-12">
+<!-- Column 1: Concept -->
+<article class="glass-elevated rounded-2xl p-8 lg:p-10 glow-subtle group hover:border-primary/30 transition-colors duration-500 flex flex-col h-full relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8 opacity-5 transform group-hover:scale-110 transition-transform duration-700">
+<span class="material-symbols-outlined text-9xl text-primary">account_tree</span>
+</div>
+<div class="relative z-10">
+<div class="w-14 h-14 rounded-xl bg-primary-container/30 border border-primary/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-2xl">architecture</span>
+</div>
+<h2 class="text-3xl font-headline font-semibold text-on-surface mb-6">O que é o Método STAR?</h2>
+<div class="space-y-4 text-lg text-on-surface-variant leading-relaxed font-body">
+<p>Uma <strong class="text-primary-fixed font-semibold">técnica estruturada</strong> baseada em comportamentos, desenhada para extrair evidências concretas de competências.</p>
+<p>Diferente de abordagens hipotéticas, o foco está em mapear como o indivíduo agiu em situações reais passadas, fornecendo um modelo objetivo de avaliação.</p>
+</div>
+</div>
+<div class="mt-auto pt-8">
+<div class="h-1 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary/40 w-1/3 rounded-full"></div>
+</div>
+</div>
+</article>
+<!-- Column 2: Premise -->
+<article class="glass-elevated rounded-2xl p-8 lg:p-10 glow-subtle group hover:border-tertiary/30 transition-colors duration-500 flex flex-col h-full relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8 opacity-5 transform group-hover:scale-110 transition-transform duration-700">
+<span class="material-symbols-outlined text-9xl text-tertiary">insights</span>
+</div>
+<div class="relative z-10">
+<div class="w-14 h-14 rounded-xl bg-tertiary-container/30 border border-tertiary/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-tertiary text-2xl">timeline</span>
+</div>
+<h2 class="text-3xl font-headline font-semibold text-on-surface mb-6">A Premissa Fundamental</h2>
+<div class="space-y-4 text-lg text-on-surface-variant leading-relaxed font-body">
+<blockquote class="border-l-4 border-tertiary/50 pl-6 my-4 italic text-on-surface text-xl">
+                                "O comportamento passado é o melhor preditor do comportamento futuro."
+                            </blockquote>
+<p>Ações demonstram intenções e capacidades muito melhor do que conjecturas. Ao focar em resultados históricos, minimizamos o viés de auto-relato.</p>
+</div>
+</div>
+<div class="mt-auto pt-8">
+<div class="h-1 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-tertiary/40 w-full rounded-full"></div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</main>
+<!-- Footer (Predicted Component) -->
+</body></html>

@@ -6,6 +6,7 @@ on:
     branches: ["main"]
     paths:
       - 'Jornada_Aprendizagem_Informal/app/**'
+      - 'Apresentação metodo STAR/**'
       - '.github/workflows/deploy-jornada.yml'
 
   # Allows you to run this workflow manually from the Actions tab
@@ -39,13 +40,20 @@ jobs:
       - name: Install dependencies
         working-directory: ./Jornada_Aprendizagem_Informal/app
         run: npm ci
-      - name: Build
+      - name: Build Jornada App
         working-directory: ./Jornada_Aprendizagem_Informal/app
         run: npm run build
+
+      - name: Prepare Multi-Project Deployment
+        run: |
+          mkdir -p public_html
+          cp -a ./Jornada_Aprendizagem_Informal/app/dist/. public_html/
+          cp -a "./Apresentação metodo STAR" public_html/apresentacao-metodo-star
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./Jornada_Aprendizagem_Informal/app/dist
+          path: ./public_html
 
   # Deployment job
   deploy:

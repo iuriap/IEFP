@@ -1,0 +1,55 @@
+E-PORTEFÓLIO REFLEXIVO DO FORMADOR
+1. Identificação do Formando
+•	Nome: Iúri André Pereira
+•	Localidade: Lisboa, Portugal
+•	Contacto de E-mail: iuri.ap@gmail.com
+•	Perfil Profissional (LinkedIn): linkedin.com/in/iuripereira
+•	Área de Especialização Base: Engenharia de Software Sénior, Desenvolvimento XR (Realidade Virtual/Aumentada) e Desenvolvimento de E-Learning.
+2. Enquadramento de Percurso Global (Pessoal, Familiar, Social, Profissional)
+O meu percurso sempre foi pautado por uma curiosidade inata pela forma como a tecnologia e a estética se cruzam para resolver problemas reais. Iniciei a minha jornada académica no Design e Comunicação Visual no IADE, o que me deu uma base sólida em user experience e estética. No entanto, a vontade de não apenas "desenhar", mas também de "construir" essas soluções, levou-me à Licenciatura em Informática de Gestão na Universidade Europeia.
+Profissionalmente, considero ter um perfil híbrido e invulgar. Comecei por gerir operações técnicas e de design em impressão 3D (na 3D SPOT e 3D LIFE). Esta experiência tátil com a tecnologia 3D abriu-me as portas para o ensino, onde me estreei como formador no CENFIM e, mais tarde, na Happy Code Portugal.
+Atualmente, na NTT DATA Europe & LATAM, como Senior Software Engineer & e-Learning Developer, encontrei o ponto de convergência ideal de todo o meu percurso: utilizo as minhas competências de programação e design 3D para criar experiências de Digital Learning de alto impacto, incluindo formações imersivas em Realidade Virtual (VR) e Aumentada (AR) para setores como a energia, indústria automóvel e justiça. O meu percurso social e pessoal reflete-se na minha capacidade de adaptação – sou fluente em Inglês e Espanhol, o que me permite atuar em ambientes multiculturais e projetos internacionais.
+[Inserir Imagens ilustrativas do percurso: ex: a lecionar uma turma, ou a testar óculos de Realidade Virtual num contexto de formação corporativa]
+3. Aprendizagens Formais, Informais e Não Formais Mais Relevantes
+O meu percurso espelha o conceito de aprendizagem ao longo da vida (Lifelong Learning):
+Aprendizagens Formais:
+•	Licenciatura em Informática de Gestão – Universidade Europeia (2016 – 2019)
+•	Licenciatura em Design e Comunicação Visual – IADE (2010 – 2013)
+Aprendizagens Não Formais:
+•	Certificado de Competências Pedagógicas (CCP) - IEFP: Fundamental para estruturar a minha vocação natural para o ensino.
+•	Certificado de E-Formador: Crucial para o meu momento profissional atual, dotando-me de metodologias específicas para a moderação e desenho de formações em ambientes totalmente digitais e assíncronos.
+•	Nanodegree Android Development – Udacity / Google (2016 – 2017)
+•	Zbrush Certified (Modelação 3D avançada)
+Aprendizagens Informais:
+•	Domínio autodidata de ferramentas de autoria de e-learning (Articulate 360, Storyline) e motores de jogo para serious games (Unity 3D).
+•	Aprendizagens diárias colaborativas integradas nas equipas da NTT DATA, particularmente na fusão de tecnologias Web (HTML, CSS, JS) com o desenho instrucional em projetos como a plataforma NAU (Open EDX).
+4. Autoavaliação das Competências Existentes
+Considero que as minhas competências pedagógicas se encontram num nível avançado, especialmente no que toca à aplicação de tecnologias de informação ao serviço da aprendizagem.
+•	Competências Técnico-Pedagógicas (Fortes): Domínio na transição de conteúdos densos (ex: Cibersegurança ou Manutenção de Alta Tensão) para formatos de e-learning interativos. Tenho grande capacidade em desenhar ambientes de simulação onde o erro não tem custo real (uso de VR para new joiners na manutenção de postos de transformação).
+•	Competências Relacionais e de Animação (Muito Boas): A minha experiência a ensinar programação e robótica a jovens (Happy Code) dotou-me de uma enorme capacidade de adaptação de discurso, paciência e gamification – técnicas que aplico hoje na formação corporativa de adultos para aumentar o engagement.
+•	Área a Melhorar: Gostaria de aprofundar métodos formais de avaliação de impacto formativo (Modelos como o de Kirkpatrick), para além da simples medição da conclusão dos módulos digitais.
+5. Reflexão Crítica Sobre o Seu Percurso Enquanto Formador
+O meu trajeto como formador não foi linear, mas sim construído por blocos que hoje fazem todo o sentido. Comecei com a formação técnica muito específica e laboratorial (Modelação e Impressão 3D no CENFIM), onde o foco era o "saber-fazer" técnico. Posteriormente, o desafio na Happy Code Portugal exigiu uma mudança radical: como manter crianças e adolescentes motivados a aprender lógica de programação (Unity C#, Kotlin)? Aqui, a minha identidade profissional enquanto formador ganhou uma dimensão empática e lúdica. Compreendi que o formador é, acima de tudo, um facilitador de experiências.
+Hoje, atuando na formação de clientes empresariais na NTT DATA, percebo que os princípios são os mesmos. Quer esteja a desenhar um curso sobre dados no Articulate Storyline, ou a programar uma simulação imersiva de segurança no trabalho com óculos HoloLens, o meu foco é o formando. O meu conhecimento do Certificado de E-Formador permite-me desenhar jornadas de aprendizagem que mitigam o isolamento típico do ensino à distância. Acredito que a minha prática pedagógica se distingue por colocar o formando no centro da ação digital, não como espetador, mas como interveniente ativo do seu conhecimento.
+6. Descrição de Expectativas de Formação e Projetos de Desenvolvimento Futuro
+O futuro da formação profissional passa, inevitavelmente, pela convergência entre as metodologias andragógicas e o Spatial Computing (Metaverso, MR, VR, AR). A minha expectativa é consolidar-me como um Especialista em Experiências de Aprendizagem Imersivas (Immersive Learning Architect).
+Projetos Futuros:
+1.	Aprofundar o uso de Inteligência Artificial integrada na criação de conteúdos e-learning (ex: formadores virtuais gerados por IA responsiva).
+2.	Desenvolver e publicar artigos ou case studies sobre a redução da curva de aprendizagem (e diminuição de sinistralidade laboral) através do uso de VR na capacitação de quadros técnicos industriais.
+3.	Colaborar ativamente em comunidades de prática de formadores digitais, partilhando como o game design (do meu background de Unity) pode reter a atenção em formações assíncronas maçadoras.
+7. Anexos e Evidências
+(Abaixo encontra-se a lista dos anexos que suportam o portefólio. Como simulação RvccFor, encontra-se a justificação para a inclusão de cada evidência).
+7.1 Seleção de Evidências a Integrar o Portefólio
+•	Evidência 1: Certificado de Competências Pedagógicas (CCP) e Certificado de E-Formador.
+o	Justificação: Evidenciam a minha capacitação formal, legal e metodológica para exercer a profissão de formador presencial e formador a distância (e-learning).
+•	Evidência 2: Print Screens / Vídeo Demonstrativo do Curso E-learning na área de Redes Elétricas (desenvolvido em Articulate Storyline).
+o	Justificação: Demonstra a minha capacidade prática de conciliar design instrucional com programação interativa (JS), criando objetos de aprendizagem concretos.
+•	Evidência 3: Relatório / Capturas de ecrã do Simulador VR de Manutenção de Postos de Transformação.
+o	Justificação: Evidencia o meu trabalho colaborativo (recolha de requisitos com Subject Matter Experts de energia) e a implementação de estratégias pedagógicas baseadas em simulação prática para mitigar riscos reais.
+•	Evidência 4: Declaração de funções da Happy Code Portugal.
+o	Justificação: Comprova a minha experiência prática presencial em sala de aula, adaptando pedagogias complexas (programação C++) a públicos juvenis heterogéneos.
+7.2 Instrumentos de Avaliação Obrigatórios
+•	ALV – Aprendizagens formais, informais e não formais;
+•	Ficha de percurso individual;
+•	Grelha de Autoavaliação;
+•	Questionário: quais as minhas práticas?
